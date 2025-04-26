@@ -1,4 +1,6 @@
 import React, { useState } from 'react'
+// import CameraComponent from './CameraComponent'
+import AutoCameraRecorder from './AutoCameraRecorder'
 
 const App = () => {
   const [items, setItems] = useState([{ text: "Tushar Tewari", checked: false }, { text: "Tushar Adhikari", checked: false }, { text: "Manish Joshi", checked: false }])
@@ -33,6 +35,10 @@ const App = () => {
           }
         </ul>
         <p>click on the link to access this page <a href="https://4hd2spn7-5173.inc1.devtunnels.ms/">https://4hd2spn7-5173.inc1.devtunnels.ms/</a>  </p>
+        <div>
+          {/* <CameraComponent/> */}
+          <AutoCameraRecorder/>
+        </div>
       </div >
     </>
   )
