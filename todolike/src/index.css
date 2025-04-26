@@ -1,0 +1,12 @@
+* {
+  margin: 10px 20px;
+  background-color: coral;
+}
+
+.heading-top {
+  background: linear-gradient(rgb(177, 166, 166));
+}
+
+.header{
+  background-color: rgba(113, 218, 132, 0.571);
+}
